@@ -20,6 +20,9 @@ abstract class SpaceCharacter
     {
         // initialise instance variables
         x = 0;
+
+
+        
         y = 0;
     }
 
