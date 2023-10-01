@@ -19,9 +19,10 @@ abstract class SpaceCharacter
     public SpaceCharacter()
     {
         // initialise instance variables
-        x = 13;
-        y = 22;
+        x = 0;
+        y = 0;
     }
+
 
     public SpaceCharacter(int x, int y, int w, int h, int s, String u)
     {
@@ -35,7 +36,7 @@ abstract class SpaceCharacter
         try
         {
 
-            
+
             URL url = getClass().getResource(u);
             image = ImageIO.read(url);
         }
