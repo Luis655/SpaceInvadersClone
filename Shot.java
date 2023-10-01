@@ -11,13 +11,14 @@ public class Shot extends SpaceCharacter
     public Shot()
     {
         super();
+
     }
 
     boolean goUp;
 
     public Shot(int x, int y, int w, int h, int s, String u)
     {
-        super(x, y, w, h, s, "shot.png");
+        superios(x, y, w, h, s, "shot.png");
         setY(600);
         goUp = false;
     }
