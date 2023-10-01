@@ -23,17 +23,20 @@ abstract class SpaceCharacter
         y = 0;
     }
 
+
     public SpaceCharacter(int x, int y, int w, int h, int s, String u)
     {
         // initialise instance variables
         this.x = x;
-        this.y = y;
+        this.y = y;   
         this.w = w;
-        this.h = h;
+        this.h = h;   
         
         speed=s;
         try
         {
+
+
             URL url = getClass().getResource(u);
             image = ImageIO.read(url);
         }

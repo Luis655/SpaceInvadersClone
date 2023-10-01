@@ -3,7 +3,9 @@ import java.net.URL;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Image;
+
 import javax.imageio.ImageIO;
+
 
 public class Alien extends SpaceCharacter
 {
@@ -34,6 +36,12 @@ public class Alien extends SpaceCharacter
     }
     public void draw(Graphics window){
         window.drawImage(getImage(),getX(),getY(),getWidth(),getHeight(),null);
+
+
+
+
+
+        
     }
 
 }
