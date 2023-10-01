@@ -19,8 +19,8 @@ abstract class SpaceCharacter
     public SpaceCharacter()
     {
         // initialise instance variables
-        x = 0;
-        y = 0;
+        x = 13;
+        y = 22;
     }
 
     public SpaceCharacter(int x, int y, int w, int h, int s, String u)
