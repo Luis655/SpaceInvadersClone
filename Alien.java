@@ -36,6 +36,12 @@ public class Alien extends SpaceCharacter
     }
     public void draw(Graphics window){
         window.drawImage(getImage(),getX(),getY(),getWidth(),getHeight(),null);
+
+
+
+
+
+        
     }
 
 }
